@@ -1,0 +1,43 @@
+---
+title: My rmd document
+author: Maggie
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: bookdown::html_document2
+bibliography: my_bibliography.bib
+---
+
+Here is some inline code: `r 1 + 1`.
+
+```{r, starwars-plot, fig.cap="A ggplot of starwars stuff"}
+library(tidyverse)
+starwars %>% filter(species=="Human") %>% ggplot() + aes(x = height, y=mass) + geom_point()
+```
+
+
+We can see in Figure \@ref(fig:starwars-plot)...
+
+```{r, starwars-table}
+starwars %>% filter(species=="Human") %>% select (name, height, mass, homeworld) %>%
+  knitr::kable(caption="A knitr kable table of starwars data")
+```
+
+We can see in Table \@ref(tab:starwars-table)
+
+```{r, cat, fig.cap="cute cat"}
+knitr::include_graphics("http://www.online-image-editor.com//styles/2014/images/example_image.png")
+```
+
+
+We can see in Figure \@ref(fig:cat)...
+
+
+Blah blah [@barba2019engineers; @stodden2014implementing].
+
+Stodden et al. says blah [-@stodden2014implementing].
+
+@stodden2014implementing says blah.
+
+Blah blah [see [@barba2019engineers, pp. 33-35; also @stodden2014implementing, ch. 1].
+
+## References cited
+

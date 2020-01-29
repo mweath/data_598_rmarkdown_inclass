@@ -1,0 +1,12 @@
+@article{barba2019engineers,
+  title={Engineers Code: reusable open learning modules for engineering computations},
+  author={Barba, Lorena A},
+  journal={arXiv preprint arXiv:2001.00228},
+  year={2019}
+}
+@book{stodden2014implementing,
+  title={Implementing reproducible research},
+  author={Stodden, Victoria and Leisch, Friedrich and Peng, Roger D},
+  year={2014},
+  publisher={CRC Press}
+}

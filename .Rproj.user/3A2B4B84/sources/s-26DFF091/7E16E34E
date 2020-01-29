@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580187855545.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2075266975",
+    "id" : "7E16E34E",
+    "lastKnownWriteTime" : 1580260312,
+    "last_content_update" : 1580260312407,
+    "path" : "~/Documents/DATA_598a/rmarkdown_inclass/data_598_rmarkdown_inclass/my-rmd-doc.rmd",
+    "project_path" : "my-rmd-doc.rmd",
+    "properties" : {
+        "cursorPosition" : "31,0",
+        "scrollLine" : "24",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
